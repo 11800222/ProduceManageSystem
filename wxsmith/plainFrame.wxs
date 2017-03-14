@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="plainFrame">
+		<title>7-</title>
+		<size>900,450</size>
+		<fg>#FFFFFF</fg>
+		<bg>#D0D0D0</bg>
+		<id_arg>0</id_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<size>368,176</size>
+			<fg>#FFFFFF</fg>
+			<bg>#FAFAFA</bg>
+			<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+				<label>关闭</label>
+				<pos>840,0</pos>
+				<size>59,48</size>
+				<handler function="OnButton2Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<pos>288,168</pos>
+				<size>208,30</size>
+				<font>
+					<size>14</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+				</font>
+			</object>
+			<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+				<label>输入</label>
+				<pos>496,168</pos>
+				<size>104,32</size>
+				<handler function="OnButton3Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+				<label>重新选择操作</label>
+				<pos>600,168</pos>
+				<size>107,32</size>
+				<handler function="OnButton4Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+				<label>1-设备录入</label>
+				<pos>40,24</pos>
+				<size>112,32</size>
+				<handler function="OnButton5Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+				<label>2-设备分类统计</label>
+				<pos>216,24</pos>
+				<size>104,32</size>
+				<handler function="OnButton6Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON8" variable="Button8" member="yes">
+				<label>4-设备查找</label>
+				<pos>528,24</pos>
+				<size>112,32</size>
+				<handler function="OnButton8Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON9" variable="Button9" member="yes">
+				<label>7-设备删除</label>
+				<pos>368,72</pos>
+				<size>112,32</size>
+				<handler function="OnButton9Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON10" variable="Button10" member="yes">
+				<label>5-设备单价排序</label>
+				<pos>40,72</pos>
+				<size>112,32</size>
+				<handler function="OnButton10Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON11" variable="Button11" member="yes">
+				<label>6-设备信息修改</label>
+				<pos>216,72</pos>
+				<size>104,32</size>
+				<handler function="OnButton11Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON12" variable="Button12" member="yes">
+				<label>8-保存设备数据到文件</label>
+				<pos>528,72</pos>
+				<size>136,32</size>
+				<handler function="OnButton12Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON13" variable="Button13" member="yes">
+				<label>9-展示所有设备</label>
+				<pos>144,168</pos>
+				<size>139,32</size>
+				<handler function="OnButton13Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<pos>0,200</pos>
+				<size>904,248</size>
+				<fg>#FFFFFF</fg>
+				<bg>#000000</bg>
+				<style>wxTE_MULTILINE|wxTE_READONLY</style>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>3-设备报废</label>
+				<pos>368,24</pos>
+				<size>112,32</size>
+				<handler function="OnButton1Click1" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>
